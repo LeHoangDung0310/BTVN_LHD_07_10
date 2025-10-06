@@ -30,7 +30,7 @@ fun ProfileScreen(account: Account, onSettingClick: () -> Unit, onBackClick: () 
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp),
+                .padding(36.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Text(
@@ -197,7 +197,7 @@ fun ProfileScreenPreview() {
         ProfileScreen(
             account = Account(
                 username = "Profile Name",
-                email = "mail@email.com",
+                email = "ledung@email.com",
                 phone = "+99 999 555 222",
                 skype = "me007",
                 web = "cssauthor.com/"

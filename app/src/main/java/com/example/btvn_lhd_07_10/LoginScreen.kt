@@ -37,19 +37,19 @@ fun LoginScreen(onLogin: (String, String) -> Unit) {
             contentAlignment = Alignment.Center
         ) {
             Text(
-                text = "CC",
+                text = "IND",
                 fontSize = 40.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFF6EB5FF)
             )
-            // Chữ m nhỏ ở góc phải trên
+            // Chữ m nhỏ ở góIND phải trên
             Box(
                 modifier = Modifier
                     .align(Alignment.TopEnd)
                     .offset(x = (-8).dp, y = 8.dp)
             ) {
                 Text(
-                    text = "m",
+                    text = "R",
                     fontSize = 16.sp,
                     color = Color(0xFF6EB5FF)
                 )
